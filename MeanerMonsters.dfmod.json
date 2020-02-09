@@ -1,0 +1,14 @@
+{
+    "ModTitle": "Meaner Monsters",
+    "ModVersion": "1.1",
+    "ModAuthor": "Ralzar",
+    "ContactInfo": "forums.dfworkshop.com",
+    "DFUnity_Version": "0.10.17",
+    "ModDescription": "Buffs many monsters. Debuffs rats, bats and zombies.",
+    "GUID": "e2a4e0ec-89ec-4ccc-999a-cb16e6cef75e",
+    "Files": [
+        "Assets/Game/Mods/MeanerMonsters/MeanerMonsters.cs"
+    ],
+    "Contributes": null,
+    "Dependencies": null
+}
