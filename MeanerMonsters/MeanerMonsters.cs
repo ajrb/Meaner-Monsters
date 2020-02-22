@@ -109,7 +109,7 @@ namespace MeanerMonsters
             {   // Rat
                 ID = 0,
                 MinDamage = 1, MaxDamage = 2,
-                MinHealth = 15, MaxHealth = 25,
+                MinHealth = 20, MaxHealth = 40,
                 ArmorValue = 8
             },
             new MobileEnemyOverhaulData()
@@ -126,7 +126,7 @@ namespace MeanerMonsters
                 MinDamage = 5, MaxDamage = 10,
                 MinDamage2 = 8, MaxDamage2 = 12,
                 MinDamage3 = 10, MaxDamage3 = 20,
-                MinHealth = 50, MaxHealth = 100,
+                MinHealth = 100, MaxHealth = 200,
                 Level = 4,
                 ArmorValue = 7
             },
@@ -136,7 +136,7 @@ namespace MeanerMonsters
                 MinDamage = 8, MaxDamage = 15,
                 MinDamage2 = 8, MaxDamage2 = 20,
                 MinDamage3 = 10, MaxDamage3 = 25,
-                MinHealth = 20, MaxHealth = 60,
+                MinHealth = 60, MaxHealth = 120,
                 Level = 4,
                 ArmorValue = 2
             },
@@ -154,7 +154,7 @@ namespace MeanerMonsters
                 MinDamage  = 8, MaxDamage = 10,
                 MinDamage2 = 8, MaxDamage2 = 10,
                 MinDamage3 = 15, MaxDamage3 = 30,
-                MinHealth = 25, MaxHealth = 50,
+                MinHealth = 100, MaxHealth = 150,
                 Level = 8,
                 ArmorValue = 1
             },
@@ -164,7 +164,7 @@ namespace MeanerMonsters
                 MinDamage = 5, MaxDamage = 8,
                 MinDamage2 = 5, MaxDamage2 = 8,
                 MinDamage3 = 10, MaxDamage3 = 25,
-                MinHealth = 80, MaxHealth = 120,
+                MinHealth = 180, MaxHealth = 220,
                 Level = 8,
                 ArmorValue = 7
             },
@@ -172,7 +172,7 @@ namespace MeanerMonsters
             {   // Giant
                 ID = 16,
                 MinDamage = 10, MaxDamage = 30,
-                MinHealth = 80, MaxHealth = 110,
+                MinHealth = 200, MaxHealth = 300,
                 Level = 10,
                 ArmorValue = 5
             },
@@ -187,8 +187,8 @@ namespace MeanerMonsters
             new MobileEnemyOverhaulData()
             {   // Mummy
                 ID = 19,
-                MinDamage = 5, MaxDamage = 15,
-                MinHealth = 100, MaxHealth = 150,
+                MinDamage = 10, MaxDamage = 30,
+                MinHealth = 150, MaxHealth = 200,
                 Level = 15,
                 ArmorValue = -8
             },
@@ -197,7 +197,7 @@ namespace MeanerMonsters
                 ID = 20,
                 MinDamage = 10, MaxDamage = 15,
                 MinHealth = 15, MaxHealth = 70,
-                Level = 7,
+                Level = 4,
                 ArmorValue = 2
             },
             new MobileEnemyOverhaulData()
@@ -236,25 +236,25 @@ namespace MeanerMonsters
             {   // Orc
                 ID = 7,
                 MinDamage = 8, MaxDamage = 20,
-                MinHealth = 20, MaxHealth = 50,
+                MinHealth = 40, MaxHealth = 60,
                 Level = 6,
-                ArmorValue = 5
+                ArmorValue = 2
             },
             new MobileEnemyOverhaulData()
             {   // Orc Sargeant
                 ID = 12,
                 MinDamage = 10, MaxDamage = 30,
-                MinHealth = 40, MaxHealth = 100,
-                Level = 9,
-                ArmorValue = 2
+                MinHealth = 80, MaxHealth = 120,
+                Level = 10,
+                ArmorValue = -3
             },
             new MobileEnemyOverhaulData()
             {   // Orc Shaman
                 ID = 21,
                 MinDamage = 8, MaxDamage = 30,
-                MinHealth = 50, MaxHealth = 110,
+                MinHealth = 100, MaxHealth = 150,
                 Level = 15,
-                ArmorValue = 6
+                ArmorValue = 1
             },
             new MobileEnemyOverhaulData()
             {   // Orc Warlord
@@ -262,6 +262,38 @@ namespace MeanerMonsters
                 MinDamage = 15, MaxDamage = 50,
                 MinHealth = 60, MaxHealth = 150,
                 Level = 19,
+                ArmorValue = -10
+            },
+            new MobileEnemyOverhaulData()
+            {   // Fire Atronach
+                ID = 35,
+                MinDamage = 15, MaxDamage = 30,
+                MinHealth = 25, MaxHealth = 130,
+                Level = 16,
+                ArmorValue = 6
+            },
+            new MobileEnemyOverhaulData()
+            {   // Iron Atronach
+                ID = 36,
+                MinDamage = 5, MaxDamage = 15,
+                MinHealth = 25, MaxHealth = 130,
+                Level = 21,
+                ArmorValue = 6
+            },
+            new MobileEnemyOverhaulData()
+            {   // Flesh Atronach
+                ID = 37,
+                MinDamage = 5, MaxDamage = 15,
+                MinHealth = 100, MaxHealth = 300,
+                Level = 16,
+                ArmorValue = 6
+            },
+            new MobileEnemyOverhaulData()
+            {   // Ice Atronach
+                ID = 38,
+                MinDamage = 5, MaxDamage = 15,
+                MinHealth = 25, MaxHealth = 130,
+                Level = 16,
                 ArmorValue = -1
             },
         };
