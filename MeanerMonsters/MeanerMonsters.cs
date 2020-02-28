@@ -116,10 +116,11 @@ namespace MeanerMonsters
 
         private static EnemyData[] mobEnemyDataArray = new EnemyData[]
         {
-            new EnemyData(id: 0, minHp:15, maxHp: 25, armor: 8, minDmg:1, maxDmg:2),        // Rat
-            new EnemyData(id: 3, minHp: 5, maxHp: 15, armor: 4, minDmg:1, maxDmg:2,         // Giant Bat
+            new EnemyData(id: 0, minHp:15, maxHp: 25, armor: 8, minDmg: 1, maxDmg: 2),                                                  // Rat
+            new EnemyData(id: 3, minHp: 5, maxHp: 15, armor: 4, minDmg: 1, maxDmg: 2,                                                   // Giant Bat
                             level:2, moveSnd: (int)SoundClips.EnemyGiantMove),  // <- example of setting a level and a sound clip.
-            new EnemyData(id: 4, minHp:50, maxHp:100, armor: 7, minDmg:1, maxDmg:2),        // Grizzly Bear
+            new EnemyData(id: 4, minHp:50, maxHp:100, armor: 7, minDmg: 1, maxDmg: 2, minDmg2: 8, maxDmg2:12, minDmg3:10, maxDmg3:20),  // Grizzly Bear
+            new EnemyData(id: 5, minHp:20, maxHp: 60, armor: 2, minDmg: 8, maxDmg:15, minDmg2: 8, maxDmg2:20, minDmg3:10, maxDmg3:25),  // Sabertooth Tiger
         };
         /*
             {   // Rat
